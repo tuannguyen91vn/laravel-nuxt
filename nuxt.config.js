@@ -1,3 +1,6 @@
-export default {
-  srcDir: 'resources/js/nuxt-app'
-}
+const laravelNuxt = require("laravel-nuxt");
+
+module.exports = laravelNuxt({
+  modules: [],
+  plugins: [],
+});
